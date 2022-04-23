@@ -99,11 +99,11 @@ cronjob:
   successfulJobsHistoryLimit: 2
 
 postgresql:
-  enabled: true
+  enabled: false
   existingSecret: "dbcreds"
   postgresqlUsername: nextcloud
   postgresqlDatabase: nextcloud
 
 redis:
-  enabled: true
+  enabled: false
   existingSecret: "rediscreds"
